@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# App runtime outputs (DO NOT COMMIT)
+data/
+attendance_data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.jsonl
+
+# Downloaded models / weights (optional; publish only via GitHub Releases if you want an offline bundle)
+models/
